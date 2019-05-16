@@ -1,0 +1,48 @@
+/* Standard 5 themes */
+.primary {
+  background: #568BEF;
+}
+
+.secondary {
+  background: #DBDBDB;
+}
+
+.success {
+  background: #41F9B5;
+}
+
+.alert {
+  background: #FFA143;
+}
+
+.error {
+  background: #DF6A6A;
+}
+
+/* Shadowbringers themes */
+.purple-navy {
+  background: #374E7A;
+}
+
+.eerie-black {
+  background: #171617;
+}
+
+.deep-koamaru {
+  background: #333074;
+}
+
+.jp-indigo {
+  background: #283349;
+  color: white;
+}
+
+.fawn {
+  background: #DFB66A;
+}
+
+/* Dark theme */
+.dark {
+    background: #171617;
+    color: white;
+}

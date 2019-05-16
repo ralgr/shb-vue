@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+}
+
+/* Padding classes */
+.pa0 {
+  padding: 0;
+}
+
+.pa1 {
+  padding: .5em;
+}
+
+.pa2 {
+  padding: 1em;
+}
+
+.pa3 {
+  padding: 2em;
+}
+
+.pa4 {
+  padding: 3em;
+}
+
+.pa5 {
+  padding: 4em;
+}
+
+/* Margin classes */
+.ma0 {
+  margin: 0;
+}
+
+.ma1 {
+  margin: 0.5em;
+}
+
+.ma2 {
+  margin: 1em;
+}
+
+.ma3 {
+  margin: 2em;
+}
+
+.ma4 {
+  margin: 3em;
+}
+
+.ma5 {
+  margin: 4em;
+}
