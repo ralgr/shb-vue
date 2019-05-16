@@ -99,7 +99,7 @@ Below is a summary of what was included in the mentioned pattern libraries.
   -	Static images.
   -	Video and audio.
 
-###U.S. Web Design System
+### U.S. Web Design System
 *	Buttons.
   -	Different sizes.
 *	Tables.
@@ -114,7 +114,7 @@ Below is a summary of what was included in the mentioned pattern libraries.
 *	Cards.
 *	Responsive containers.
 
-###Mailchimp
+### Mailchimp
 *	Colours.
   -	Functional, feedback, accent, and neutral.
 *	Data visualization.
@@ -173,3 +173,8 @@ In addition, below are components to be created if permitted by the time constra
 
 # Design Process Method
 A proper management of actions is required for the project to be completed in the most efficient manner. As such, this project will make use of Trello for project management. This would allow for better work organization and a method to quickly grasp the situation on each of the components to be created. During the creation process, GitHub will be used for version control to reduce the time between coding and experimentation. Adobe XD will be used for the design and idea mock-ups to separate design and coding time as much as possible.
+
+# Design, Planning, Experimentation, and Implementation
+## Buttons
+
+The buttons will be created using the `button` tags as a template. It will make use of props to modify its appearance in addition to some default stylings to fit the theme.
