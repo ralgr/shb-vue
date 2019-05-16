@@ -1,8 +1,11 @@
 #Introduction
+
 ##Background
+
 Three terms that are used interchangeably are style guides, pattern library, and design systems. But according to Toman (2017),  each are their own entities. A style guide is defined as a set of guidelines that help forge a design to convey an identity. It usually contains colours, typography, icons, and so on, which are the building blocks of an identity. Pattern libraries are a collection of reusable independent components complete with documentation usually containing code examples, use context, use instructions, and so on. Lastly, a design system is defined as the one which governs how the other two are used together. Whichever the term, all three are used in creating websites.  
 
 ##Project Aim
+
 This project aims to create a modern, web-based pattern library using Vue.js.
 
 To do so, research will be conducted on current best practices and existing pattern libraries to:
@@ -13,7 +16,9 @@ To do so, research will be conducted on current best practices and existing patt
 Afterwards, the patterns contained in the reference will be created using Vue.js. To create and ensure the patterns will perform as they should, adequate resources such tutorials and the Vue.js documentation will used. Finally, a deployment tactic will be employed to propagate the pattern library after the completion of core components.
 
 #Research
+
 ##Current Best Practices
+
 Current best practices as defined by Douglas (2018) and Sorensen (2016) are as follows:
 
 * Familiarize with other Pattern libraries – Look for similarities on what is usually included to guide what a pattern library should contain.
