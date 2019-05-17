@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="dark">
+  <div id="app" class="dark eerie-black">
     <shnav>
       <template #logo>
         SHADOWBRINGERS PATTERN LIBRARY
@@ -15,9 +15,9 @@
 
     <shfooter>
       <template #social>
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-github"></i></a>
+        <shlinks><a href="#"><i class="fab fa-facebook"></i></a></shlinks>
+        <shlinks><a href="#"><i class="fab fa-twitter"></i></a></shlinks>
+        <shlinks><a href="#"><i class="fab fa-github"></i></a></shlinks>
       </template>
 
       <template #copyright>
@@ -31,7 +31,6 @@
 import shnav from './components/shnav'
 import shfooter from './components/shfooter'
 import shlinks from './components/shlinks'
-import shbutton from './components/shbutton'
 
 export default {
   name: 'App',
@@ -39,8 +38,7 @@ export default {
   components: {
     shnav,
     shlinks,
-    shfooter,
-    shbutton
+    shfooter
   }
 }
 </script>

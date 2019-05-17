@@ -399,4 +399,68 @@ export default {
   }
 }
 
+.sampleClass {
+  grid-gap: 10px;
+}
+
+.sampleClass2 {
+  padding: 30px;
+  background: silver;
+}
 </style>
+
+<docs>
+### ** Requirements **
+** The `<shlayer></shlayer>` component is a sub-component of `<shcontainer></shcontainer>`, and is to be used only inside it. Otherwise, it will just be an ordinary `div` with unformatted text content. **
+
+### Description
+
+The `<shlayer></shlayer>` is a sub-component of `shcontainer` and will wrap the contents to be put inside the `shcontainer` grid, representing a row in the grid. Props are used to control how many columns it will take up on the `<shcontainer></shcontainer>` grid on each breakpoint. These props are divided in 4 categories of breakpoints, which are:
+
+* ** `xs12 to 1` ** refers to ** `less than 600px` ** device resolution.
+* ** `sm12 to 1` ** refers to ** `between 600px and 960px` ** device resolution.
+* ** `md12 to 1` ** refers to ** `between 960px and 1264px` ** device resolution.
+* ** `lg12 to 1` ** refers to ** `between 1264px and 1904px` ** device resolution.
+* ** `xl12 to 1` ** refers to ** `greater than 1904px` ** device resolution.
+
+In each category, there are 12 levels that corresponds to the number of columns in the grid. For example, the code:
+
+`<shlayer xs12 md6></shlayer>`
+
+will make sure that `xs` devices makes use of all 12 columns until it reaches the `md` breakpoint, on which it would then use 6 columns.
+
+### Examples
+
+Resize the screen to see responsiveness.
+
+```jsx
+<shcontainer gridGap textCenter>
+  <shlayer class="sampleClass2" xs12 md6 lg12>
+    1
+  </shlayer>
+  <shlayer class="sampleClass2" xs6 md6 lg12>
+    2
+  </shlayer>
+  <shlayer class="sampleClass2" xs6 md12 lg12>
+    3
+  </shlayer>
+</shcontainer>
+```
+
+Open isolated and resize the screen to check the effects of `centered80`.
+
+```jsx
+<shcontainer gridGap centered80 textCenter>
+  <shlayer class="sampleClass2" xs12 md6 lg12>
+    1
+  </shlayer>
+  <shlayer class="sampleClass2" xs6 md6 lg12>
+    2
+  </shlayer>
+  <shlayer class="sampleClass2" xs6 md12 lg12>
+    3
+  </shlayer>
+</shcontainer>
+```
+
+</docs>

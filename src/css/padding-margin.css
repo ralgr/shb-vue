@@ -1,5 +1,12 @@
+/* Setters */
 body {
   margin: 0;
+}
+
+/* Responsive image */
+img {
+  width: 100%;
+  height: auto;
 }
 
 /* Padding classes */

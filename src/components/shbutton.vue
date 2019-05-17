@@ -23,34 +23,58 @@ export default {
   name: 'shbutton',
 
   props: {
+    /**
+       * Modifies the button shape to round.
+    */
     round: {
       type: Boolean
     },
 
+    /**
+       * Modifies the button shape to only show outline and text.
+    */
     outline: {
       type: Boolean
     },
 
+    /**
+       * Modifies the button shape to show only text.
+    */
     txt: {
       type: Boolean
     },
 
+    /**
+       * Change the button colour to primary.
+    */
     primary: {
       type: Boolean
     },
 
+    /**
+       * Change the button colour to secondary.
+    */
     secondary: {
       type: Boolean
     },
 
+    /**
+       * Change the button colour to success.
+    */
     success: {
       type: Boolean
     },
 
+    /**
+       * Change the button colour to alert.
+    */
     alert: {
       type: Boolean
     },
 
+    /**
+       * Change the button colour to error.
+    */
     error: {
       type: Boolean
     }
@@ -252,3 +276,89 @@ export default {
     border: 2px #DF6A6A solid;
   }
 </style>
+
+<docs>
+### Description
+A button that can be modified using props.
+
+### Variants
+
+To modify the shape of the button, use the following props:
+* ``` round ```
+* ``` outline ```
+* ``` txt ```
+
+In addition to the shape, the color can be modified using the theme props:
+* ``` primary ```
+* ``` secondary ```
+* ``` success ```
+* ``` alert ```
+* ``` error ```
+
+All together making six variations of buttons as shown below.
+
+Normal buttons:
+
+```jsx
+<shbutton normal>Push Me</shbutton>
+<shbutton normal primary>Push Me</shbutton>
+<shbutton normal secondary>Push Me</shbutton>
+<shbutton normal success>Push Me</shbutton>
+<shbutton normal alert>Push Me</shbutton>
+<shbutton normal error>Push Me</shbutton>
+```
+
+Normal round buttons:
+
+```jsx
+<shbutton normal round>Push Me</shbutton>
+<shbutton normal round primary>Push Me</shbutton>
+<shbutton normal round secondary>Push Me</shbutton>
+<shbutton normal round success>Push Me</shbutton>
+<shbutton normal round alert>Push Me</shbutton>
+<shbutton normal round error>Push Me</shbutton>
+```
+Normal outline buttons:
+
+```jsx
+<shbutton outline>Push Me</shbutton>
+<shbutton outline primary>Push Me</shbutton>
+<shbutton outline secondary>Push Me</shbutton>
+<shbutton outline success>Push Me</shbutton>
+<shbutton outline alert>Push Me</shbutton>
+<shbutton outline error>Push Me</shbutton>
+```
+
+Round outline buttons:
+
+```jsx
+<shbutton outline round>Push Me</shbutton>
+<shbutton outline round primary>Push Me</shbutton>
+<shbutton outline round secondary>Push Me</shbutton>
+<shbutton outline round success>Push Me</shbutton>
+<shbutton outline round alert>Push Me</shbutton>
+<shbutton outline round error>Push Me</shbutton>
+```
+
+Normal text buttons:
+
+```jsx
+<shbutton txt>Push Me</shbutton>
+<shbutton txt primary>Push Me</shbutton>
+<shbutton txt secondary>Push Me</shbutton>
+<shbutton txt success>Push Me</shbutton>
+<shbutton txt alert>Push Me</shbutton>
+<shbutton txt error>Push Me</shbutton>
+```
+
+Round text buttons:
+
+```jsx
+<shbutton txt round>Push Me</shbutton>
+<shbutton txt round primary>Push Me</shbutton>
+<shbutton txt round secondary>Push Me</shbutton>
+<shbutton txt round success>Push Me</shbutton>
+<shbutton txt round alert>Push Me</shbutton>
+<shbutton txt round error>Push Me</shbutton>
+```
+</docs>

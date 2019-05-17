@@ -14,11 +14,10 @@ a {
   color: white;
 }
 
-.nav-list li {
+li {
   display: inline-block;
   list-style: none;
-  height: 100%;
-  padding: 0 1em;
+  padding: 0 0.5em;
 }
 
 a:hover {
@@ -26,3 +25,30 @@ a:hover {
   color: #DFB66A;
 }
 </style>
+
+<docs>
+  ### ** Requirements **
+  ** This component can only be used by `shnav` and `shfooter`. **
+
+  ### Description
+
+  The `shlinks` component is a sub-component used for both `shnav` and `shfooter`. It is used to wrap around the links to be fed inside named slots on the stated parent components.
+
+  ### Examples
+
+  Used on the `#links` slot of `shnav`.
+  ```jsx
+  <shnav>
+    <template #logo>
+      <img src="./public/favicon.ico" alt="logo">
+      / TEXT
+    </template>
+
+    <template #links>
+      <shlinks><a href="#">home</a></shlinks>
+      <shlinks><a href="#">about</a></shlinks>
+      <shlinks><a href="#">contact</a></shlinks>
+    </template>
+  </shnav>
+  ```
+</docs>

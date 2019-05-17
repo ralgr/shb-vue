@@ -1,14 +1,15 @@
 module.exports = {
 	// set your styleguidist configuration here
-	title: 'Default Style Guide',
-	components: 'src/components/**/[A-Z]*.vue',
-	defaultExample: true
+	title: 'Shadowbringers Vue.js Pattern Library',
+	components: 'src/components/**/*.vue',
+	defaultExample: false,
+	styleguideDir: 'dist',
 	// sections: [
-	//   {
-	//     name: 'First Section',
-	//     components: 'src/components/**/[A-Z]*.vue'
-	//   }
-	// ],
+	// 	{
+	// 		name: 'Documentation',
+	// 		Content: './documentation.md'
+	// 	}
+	// ]
 	// webpackConfig: {
 	//   // custom config goes here
 	// }

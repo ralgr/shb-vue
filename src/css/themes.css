@@ -28,6 +28,10 @@
   background: #171617;
 }
 
+.clean-white {
+  background: #fff;
+}
+
 .deep-koamaru {
   background: #333074;
 }
@@ -43,6 +47,10 @@
 
 /* Dark theme */
 .dark {
-    background: #171617;
-    color: white;
+  color: white;
+}
+
+/* Light theme */
+.light {
+  color: black;
 }
