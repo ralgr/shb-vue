@@ -37,16 +37,13 @@ Below is a summary of what was included in the mentioned pattern libraries.
 * Bookmark icon
  - Colour filled boxes with icon in the middle.
  - Icons only with different colours.
-
 * Icons.
  - Social media, navigation, etc.
  - Icomoon.
-
 * Primary and secondary brand colours.
 * Layout system.
 * Body of text containers.
  - Paragraphs and lists.
-
 * Buttons
   - Standard and with loaders.
   -	Different sizes.
@@ -102,7 +99,7 @@ Below is a summary of what was included in the mentioned pattern libraries.
   -	Static images.
   -	Video and audio.
 
-###U.S. Web Design System
+### U.S. Web Design System
 *	Buttons.
   -	Different sizes.
 *	Tables.
@@ -117,7 +114,7 @@ Below is a summary of what was included in the mentioned pattern libraries.
 *	Cards.
 *	Responsive containers.
 
-###Mailchimp
+### Mailchimp
 *	Colours.
   -	Functional, feedback, accent, and neutral.
 *	Data visualization.
